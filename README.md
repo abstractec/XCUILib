@@ -22,7 +22,7 @@ pod 'XCUILib'
 
 ## Author
 
-John Haselden, john.h@bloom.co
+John Haselden, john@abstractec.co.uk
 
 ## License
 

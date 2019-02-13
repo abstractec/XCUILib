@@ -22,3 +22,26 @@ class ViewController: UIViewController {
 
 }
 
+extension ViewController: UITableViewDataSource {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 20
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        guard let tableCell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as? TableViewCell else {
+            return tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
+        }
+        
+        tableCell.mainLabel?.text = "Cell \(indexPath.row)"
+        
+        return tableCell
+    }
+    
+    
+    
+}
+
+extension ViewController: UITableViewDelegate {
+    
+}
+

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XCUILib'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A short description of XCUILib.'
 
 # This description is used to generate tags and improve search results.
@@ -24,7 +24,7 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/John Haselden/XCUILib'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'John Haselden' => 'john.h@bloom.co' }
+  s.author           = { 'John Haselden' => 'john@abstractec.co.uk' }
   s.source           = { :git => 'https://github.com/John Haselden/XCUILib.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
@@ -39,4 +39,6 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+
+  s.frameworks = 'XCTest'
 end

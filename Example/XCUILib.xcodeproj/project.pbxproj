@@ -7,17 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5AA3533F21FF6C9700414FAC /* XCUILib_ExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA3533E21FF6C9700414FAC /* XCUILib_ExampleUITests.swift */; };
+		5AA3534921FF910200414FAC /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA3534821FF910200414FAC /* TableViewCell.swift */; };
+		5AA3535521FF993300414FAC /* XCUILib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AA3535421FF993300414FAC /* XCUILib.framework */; };
+		5E7D80B7603BFEB68AEFFADF /* Pods_XCUILib_Example_XCUILib_ExampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D9CB7B2182FD80A85729666 /* Pods_XCUILib_Example_XCUILib_ExampleUITests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		6A5C731BBFCBF449F0F02B0D /* Pods_XCUILib_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09EE84F87261FB3CA999C81C /* Pods_XCUILib_Tests.framework */; };
-		E1F20925D0577DBA870A5F45 /* Pods_XCUILib_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC74DE3D44AFEF8073FDE041 /* Pods_XCUILib_Example.framework */; };
+		F23D1BEE1C8188CADD9E0F29 /* Pods_XCUILib_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC74DE3D44AFEF8073FDE041 /* Pods_XCUILib_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		5AA3534121FF6C9700414FAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 607FACCF1AFB9204008FA782;
+			remoteInfo = XCUILib_Example;
+		};
 		607FACE61AFB9204008FA782 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
@@ -29,9 +39,20 @@
 
 /* Begin PBXFileReference section */
 		09EE84F87261FB3CA999C81C /* Pods_XCUILib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XCUILib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0A9BBB51518247C3BD3B01CF /* XCUILib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = XCUILib.podspec; path = ../XCUILib.podspec; sourceTree = "<group>"; };
+		0A9BBB51518247C3BD3B01CF /* XCUILib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XCUILib.podspec; path = ../XCUILib.podspec; sourceTree = "<group>"; };
+		1E7D1D36087B1604A7413041 /* Pods-XCUILib_ExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XCUILib_ExampleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XCUILib_ExampleUITests/Pods-XCUILib_ExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		1F76F237B69A4F0D01A0E515 /* Pods-XCUILib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XCUILib_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XCUILib_Example/Pods-XCUILib_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		2D9CB7B2182FD80A85729666 /* Pods_XCUILib_Example_XCUILib_ExampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XCUILib_Example_XCUILib_ExampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		49A7B90ED9B34502977253E0 /* Pods-XCUILib_Example-XCUILib_ExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XCUILib_Example-XCUILib_ExampleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XCUILib_Example-XCUILib_ExampleUITests/Pods-XCUILib_Example-XCUILib_ExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
 		4E22CBCF7C4E98A73BB34092 /* Pods-XCUILib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XCUILib_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-XCUILib_Example/Pods-XCUILib_Example.release.xcconfig"; sourceTree = "<group>"; };
+		5AA3533C21FF6C9700414FAC /* XCUILib_ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XCUILib_ExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AA3533E21FF6C9700414FAC /* XCUILib_ExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCUILib_ExampleUITests.swift; sourceTree = "<group>"; };
+		5AA3534021FF6C9700414FAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AA3534621FF6FE800414FAC /* XCUILib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = XCUILib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AA3534821FF910200414FAC /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		5AA3534C21FF92CE00414FAC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5AA3535221FF981D00414FAC /* Pods_XCUILib_ExampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_XCUILib_ExampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AA3535421FF993300414FAC /* XCUILib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = XCUILib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* XCUILib_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XCUILib_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -42,19 +63,29 @@
 		607FACE51AFB9204008FA782 /* XCUILib_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XCUILib_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6534E3594AF4F3880B046574 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		70BCDA159ED62611208E378D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		948D57A67BD96D492B2FFC3F /* Pods-XCUILib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XCUILib_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XCUILib_Tests/Pods-XCUILib_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		D8CA65BBD3A76E7465F84D14 /* Pods-XCUILib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XCUILib_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XCUILib_Tests/Pods-XCUILib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		6534E3594AF4F3880B046574 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		70BCDA159ED62611208E378D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		AA6FE58F4AA1CB63FB429C16 /* Pods_XCUILib_ExampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XCUILib_ExampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7E8DF7909BC38CED1C03CB6 /* Pods-XCUILib_ExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XCUILib_ExampleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XCUILib_ExampleUITests/Pods-XCUILib_ExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FABC7B1917D5DB5BA8FADB7C /* Pods-XCUILib_Example-XCUILib_ExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XCUILib_Example-XCUILib_ExampleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XCUILib_Example-XCUILib_ExampleUITests/Pods-XCUILib_Example-XCUILib_ExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		FC74DE3D44AFEF8073FDE041 /* Pods_XCUILib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XCUILib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		5AA3533921FF6C9700414FAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AA3535521FF993300414FAC /* XCUILib.framework in Frameworks */,
+				5E7D80B7603BFEB68AEFFADF /* Pods_XCUILib_Example_XCUILib_ExampleUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		607FACCD1AFB9204008FA782 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1F20925D0577DBA870A5F45 /* Pods_XCUILib_Example.framework in Frameworks */,
+				F23D1BEE1C8188CADD9E0F29 /* Pods_XCUILib_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,7 +93,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A5C731BBFCBF449F0F02B0D /* Pods_XCUILib_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,10 +102,25 @@
 		327133AF217999A0200DE45A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5AA3535421FF993300414FAC /* XCUILib.framework */,
+				5AA3535221FF981D00414FAC /* Pods_XCUILib_ExampleUITests.framework */,
+				5AA3534C21FF92CE00414FAC /* XCTest.framework */,
+				5AA3534621FF6FE800414FAC /* XCUILib.framework */,
 				FC74DE3D44AFEF8073FDE041 /* Pods_XCUILib_Example.framework */,
 				09EE84F87261FB3CA999C81C /* Pods_XCUILib_Tests.framework */,
+				AA6FE58F4AA1CB63FB429C16 /* Pods_XCUILib_ExampleUITests.framework */,
+				2D9CB7B2182FD80A85729666 /* Pods_XCUILib_Example_XCUILib_ExampleUITests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5AA3533D21FF6C9700414FAC /* XCUILib_ExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5AA3533E21FF6C9700414FAC /* XCUILib_ExampleUITests.swift */,
+				5AA3534021FF6C9700414FAC /* Info.plist */,
+			);
+			path = XCUILib_ExampleUITests;
 			sourceTree = "<group>";
 		};
 		607FACC71AFB9204008FA782 = {
@@ -84,6 +129,7 @@
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for XCUILib */,
 				607FACE81AFB9204008FA782 /* Tests */,
+				5AA3533D21FF6C9700414FAC /* XCUILib_ExampleUITests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				895ADC6881799E685A42E040 /* Pods */,
 				327133AF217999A0200DE45A /* Frameworks */,
@@ -95,6 +141,7 @@
 			children = (
 				607FACD01AFB9204008FA782 /* XCUILib_Example.app */,
 				607FACE51AFB9204008FA782 /* XCUILib_Tests.xctest */,
+				5AA3533C21FF6C9700414FAC /* XCUILib_ExampleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -108,6 +155,7 @@
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
+				5AA3534821FF910200414FAC /* TableViewCell.swift */,
 			);
 			name = "Example for XCUILib";
 			path = XCUILib;
@@ -153,8 +201,10 @@
 			children = (
 				1F76F237B69A4F0D01A0E515 /* Pods-XCUILib_Example.debug.xcconfig */,
 				4E22CBCF7C4E98A73BB34092 /* Pods-XCUILib_Example.release.xcconfig */,
-				D8CA65BBD3A76E7465F84D14 /* Pods-XCUILib_Tests.debug.xcconfig */,
-				948D57A67BD96D492B2FFC3F /* Pods-XCUILib_Tests.release.xcconfig */,
+				1E7D1D36087B1604A7413041 /* Pods-XCUILib_ExampleUITests.debug.xcconfig */,
+				B7E8DF7909BC38CED1C03CB6 /* Pods-XCUILib_ExampleUITests.release.xcconfig */,
+				FABC7B1917D5DB5BA8FADB7C /* Pods-XCUILib_Example-XCUILib_ExampleUITests.debug.xcconfig */,
+				49A7B90ED9B34502977253E0 /* Pods-XCUILib_Example-XCUILib_ExampleUITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -162,6 +212,26 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		5AA3533B21FF6C9700414FAC /* XCUILib_ExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AA3534521FF6C9700414FAC /* Build configuration list for PBXNativeTarget "XCUILib_ExampleUITests" */;
+			buildPhases = (
+				990A9850E621C76A325267E6 /* [CP] Check Pods Manifest.lock */,
+				5AA3533821FF6C9700414FAC /* Sources */,
+				5AA3533921FF6C9700414FAC /* Frameworks */,
+				5AA3533A21FF6C9700414FAC /* Resources */,
+				AEFFA7275C170D17FAEDFC12 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5AA3534221FF6C9700414FAC /* PBXTargetDependency */,
+			);
+			name = XCUILib_ExampleUITests;
+			productName = XCUILib_ExampleUITests;
+			productReference = 5AA3533C21FF6C9700414FAC /* XCUILib_ExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		607FACCF1AFB9204008FA782 /* XCUILib_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "XCUILib_Example" */;
@@ -170,7 +240,7 @@
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				39E8DF150514B1E547E0A48E /* [CP] Embed Pods Frameworks */,
+				05CE427532FB3083C35A31E1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -185,11 +255,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "XCUILib_Tests" */;
 			buildPhases = (
-				4B70E50962E2DA3566B12149 /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
-				6F43F061C976F0E444F9A9CA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -207,10 +275,16 @@
 		607FACC81AFB9204008FA782 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
+				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
+					5AA3533B21FF6C9700414FAC = {
+						CreatedOnToolsVersion = 10.1;
+						DevelopmentTeam = B5DA3CU4GN;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 607FACCF1AFB9204008FA782;
+					};
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0900;
@@ -237,11 +311,19 @@
 			targets = (
 				607FACCF1AFB9204008FA782 /* XCUILib_Example */,
 				607FACE41AFB9204008FA782 /* XCUILib_Tests */,
+				5AA3533B21FF6C9700414FAC /* XCUILib_ExampleUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		5AA3533A21FF6C9700414FAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		607FACCE1AFB9204008FA782 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -280,7 +362,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		39E8DF150514B1E547E0A48E /* [CP] Embed Pods Frameworks */ = {
+		05CE427532FB3083C35A31E1 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -298,7 +380,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XCUILib_Example/Pods-XCUILib_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		4B70E50962E2DA3566B12149 /* [CP] Check Pods Manifest.lock */ = {
+		990A9850E621C76A325267E6 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -309,40 +391,47 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-XCUILib_Tests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-XCUILib_Example-XCUILib_ExampleUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		6F43F061C976F0E444F9A9CA /* [CP] Embed Pods Frameworks */ = {
+		AEFFA7275C170D17FAEDFC12 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-XCUILib_Tests/Pods-XCUILib_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
-				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
+				"${SRCROOT}/Pods/Target Support Files/Pods-XCUILib_Example-XCUILib_ExampleUITests/Pods-XCUILib_Example-XCUILib_ExampleUITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/XCUILib/XCUILib.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XCUILib.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XCUILib_Tests/Pods-XCUILib_Tests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XCUILib_Example-XCUILib_ExampleUITests/Pods-XCUILib_Example-XCUILib_ExampleUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		5AA3533821FF6C9700414FAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AA3533F21FF6C9700414FAC /* XCUILib_ExampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		607FACCC1AFB9204008FA782 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AA3534921FF910200414FAC /* TableViewCell.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
@@ -359,6 +448,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		5AA3534221FF6C9700414FAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 607FACCF1AFB9204008FA782 /* XCUILib_Example */;
+			targetProxy = 5AA3534121FF6C9700414FAC /* PBXContainerItemProxy */;
+		};
 		607FACE71AFB9204008FA782 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 607FACCF1AFB9204008FA782 /* XCUILib_Example */;
@@ -386,6 +480,65 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		5AA3534321FF6C9700414FAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FABC7B1917D5DB5BA8FADB7C /* Pods-XCUILib_Example-XCUILib_ExampleUITests.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = B5DA3CU4GN;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = XCUILib_ExampleUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.bloom.XCUILib-ExampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = XCUILib_Example;
+			};
+			name = Debug;
+		};
+		5AA3534421FF6C9700414FAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49A7B90ED9B34502977253E0 /* Pods-XCUILib_Example-XCUILib_ExampleUITests.release.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B5DA3CU4GN;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = XCUILib_ExampleUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.bloom.XCUILib-ExampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = XCUILib_Example;
+			};
+			name = Release;
+		};
 		607FACED1AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -496,7 +649,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -511,13 +664,12 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D8CA65BBD3A76E7465F84D14 /* Pods-XCUILib_Tests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -539,7 +691,6 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 948D57A67BD96D492B2FFC3F /* Pods-XCUILib_Tests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -558,6 +709,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		5AA3534521FF6C9700414FAC /* Build configuration list for PBXNativeTarget "XCUILib_ExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AA3534321FF6C9700414FAC /* Debug */,
+				5AA3534421FF6C9700414FAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "XCUILib" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
