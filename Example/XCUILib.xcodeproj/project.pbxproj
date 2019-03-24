@@ -39,7 +39,7 @@
 
 /* Begin PBXFileReference section */
 		09EE84F87261FB3CA999C81C /* Pods_XCUILib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XCUILib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0A9BBB51518247C3BD3B01CF /* XCUILib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XCUILib.podspec; path = ../XCUILib.podspec; sourceTree = "<group>"; };
+		0A9BBB51518247C3BD3B01CF /* XCUILib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XCUILib.podspec; path = ../XCUILib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1E7D1D36087B1604A7413041 /* Pods-XCUILib_ExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XCUILib_ExampleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XCUILib_ExampleUITests/Pods-XCUILib_ExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		1F76F237B69A4F0D01A0E515 /* Pods-XCUILib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XCUILib_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XCUILib_Example/Pods-XCUILib_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		2D9CB7B2182FD80A85729666 /* Pods_XCUILib_Example_XCUILib_ExampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XCUILib_Example_XCUILib_ExampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
