@@ -2,7 +2,7 @@
 
 XCUILib is a set of utility methods for automation testing with XCode. 
 
-
+Currently, the library provides a number of 
  
 ## Example
 
@@ -16,7 +16,7 @@ XCUILib is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'XCUILib'
+pod 'XCUILib', :git => 'https://github.com/abstractec/XCUILib.git'
 ```
 
 ## Author
