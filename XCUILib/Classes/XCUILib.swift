@@ -31,7 +31,7 @@ extension XCTestCase {
     }
 
     @available(iOS 9.0, *)
-    public func wait(for element: XCUIElement,
+    public func pause(for element: XCUIElement,
               timeout: TimeInterval = 5,
               _ completion: @escaping (_ error: Error?) -> Void) {
         let exists = NSPredicate(format: "exists == 1")

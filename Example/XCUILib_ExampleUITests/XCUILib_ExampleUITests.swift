@@ -37,7 +37,6 @@ class XCUILib_ExampleUITests: XCTestCase {
                 print ("Got me a zero")
             }
         }
-
     }
 
 }
